@@ -1,5 +1,7 @@
 # fab-package-nv
 
+**Status: WITHDRAWN. This package continues as [fab-jlcpcb-nv](https://github.com/novolang/fab-jlcpcb-nv): `novo pkg add fab-jlcpcb-nv`.** It is the same package under the name of the manufacturer it is for, with the fixes of a first order on JLCPCB's form (one origin for the Gerbers and the placement file, no part left to the manufacturer's matcher, the assembly class of each part).
+
 A board that passed its checks is turned into the files JLCPCB asks for when a board is ordered with assembly: the Gerber and drill zip, the bill of materials in JLCPCB's columns, and the placement file (CPL) with the rotation corrections the assembly machines need. The package also writes an order sheet that a person reads before ordering, and runs fifteen checks of the design against the manufacturer's published limits and against itself.
 
 The package places no order and calls no service. It reads the revision directory that `hardware-gates-nv` wrote, and it refuses a revision whose gates did not pass or whose files changed after the gates ran.

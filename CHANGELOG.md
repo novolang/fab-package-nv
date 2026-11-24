@@ -5,6 +5,12 @@ All notable changes to fab-package-nv are recorded here. The format is
 package follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 with the pre-1.0 rule that a breaking change bumps the MINOR number.
 
+## [0.1.1] — 2026-11-24
+
+### Changed
+
+- The package is withdrawn: it continues as fab-jlcpcb-nv 0.1.0, which carries the same modules under the names `fj*` and the fixes of a first order on JLCPCB's form. No code changed.
+
 ## [0.1.0] — 2026-11-23
 
 ### Added

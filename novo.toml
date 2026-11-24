@@ -1,6 +1,6 @@
 [package]
 name        = "fab-package-nv"
-version     = "0.1.0"
+version     = "0.1.1"
 description = "Prepares and checks the order package of a KiCad revision for JLCPCB's assembly service: the Gerber and drill zip, the bill of materials in the columns JLCPCB's sample uses, the placement file with the rotation and origin corrections of the Fabrication Toolkit made visible in a report, a check of the package against the manufacturer's published capabilities, and a sheet for the person who orders on the web.  It places no order and calls no service."
 license     = "Apache-2.0"
 
@@ -24,6 +24,10 @@ novo        = ">= 0.26.1"
 
 [docs.pages]
 "README.md" = "Preparing and checking the JLCPCB order package of a KiCad revision"
+
+[withdrawn]
+replaced_by = "fab-jlcpcb-nv"
+reason      = "The package continues as fab-jlcpcb-nv, named for the manufacturer it is for, with the fixes of a first order on JLCPCB's form."
 
 [dependencies]
 # The gates a revision passes.
